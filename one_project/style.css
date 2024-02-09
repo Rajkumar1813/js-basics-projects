@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main .button{
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+}
+#gray{
+    background-color: gray;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#chartreuse{
+    background-color: chartreuse;
+}
+#deeppink{
+    background-color: deeppink;
+}
+#cyan{
+    background-color: cyan;
+}
+#red{
+    background-color: red;
+}
+@media only screen and (max-device-width: 480px) {
+    /* CSS rules for mobile devices with a maximum device width of 480 pixels */
+    h1{
+        margin: 4rem;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .main .button{
+        width: 10rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        border: 3px solid black;
+    }
+    /* Add more rules as needed */
+  }
+
